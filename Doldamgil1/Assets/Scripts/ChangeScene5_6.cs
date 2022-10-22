@@ -14,37 +14,28 @@ public class ChangeScene5_6 : MonoBehaviour
     public void OnClickChange5_6()
     {
         cnt++;
-        if (cnt == 0)
+       
+       if (cnt == 1)
         {
-            ButtonText.text = "NEXT";
-            TalkText.text = "대화2";
-        }
-        else if (cnt == 1)
-        {
-            ButtonText.text = "NEXT";
-            TalkText.text = "CCTV자료 획득";
+            ButtonText.text = "NEXT >>";
+            TalkText.text = "고마워";
         }
         else if (cnt == 2)
         {
-            ButtonText.text = "NEXT";
-            TalkText.text = "고마워";
+            ButtonText.text = "NEXT >>";
+            TalkText.text = "주인을 찾길 바랄게";
         }
         else if (cnt == 3)
         {
-            ButtonText.text = "NEXT";
-            TalkText.text = "주인을 찾길 바랄게";
-        }
-        else if (cnt == 4)
-        {
-            ButtonText.text = "NEXT";
+            ButtonText.text = "NEXT >>";
             TalkText.text = "주인이 아니야....";
         }
-        else if (cnt == 5)
+        else if (cnt == 4)
         {
             ButtonText.text = "OK";
             TalkText.text = "레이더를 피해 정동극장으로 이동하자";
         }
-        else if (cnt == 6)
+        else if (cnt == 5)
         {
             SceneManager.LoadScene("DDG_Scene_6");
         }
@@ -54,7 +45,8 @@ public class ChangeScene5_6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        TalkText.text = "대화2";
+        ButtonText.text = "NEXT >>";
+        TalkText.text = "대화";
     }
 
     // Update is called once per frame
