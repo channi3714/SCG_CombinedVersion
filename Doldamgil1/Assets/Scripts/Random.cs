@@ -12,6 +12,7 @@ public class Random : MonoBehaviour
     public Text AlertText;
     public GameObject ButtonAlert;
     public GameObject PanelAlert;
+    public GameObject Warning;
 
     private float clickTime;
     public float minClickTime = 1;
@@ -37,6 +38,7 @@ public class Random : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Warning.transform.localScale = Vector3.zero;
         PanelAlert.transform.localScale = Vector3.zero;
         ButtonAlert.transform.localScale = Vector3.zero;
         //ButtonAlert.SetActive(!ButtonAlert.active);
@@ -47,17 +49,21 @@ public class Random : MonoBehaviour
     {
         if (random <= 0)
         {
+            Warning.transform.localScale = Vector3.zero;
+
             AlertText.text = "";
             PanelAlert.transform.localScale = Vector3.zero;
             ButtonAlert.transform.localScale = Vector3.zero;
-            random = UnityEngine.Random.Range(-500, 2);
+            random = UnityEngine.Random.Range(-300, 2);
             RandomTimeText.text = random.ToString();
             clickTime = 0;
             ck = 0;
         }
         else if (random > 0)
         {
-            AlertText.text = "Stop!\nAnd press the Button!!";
+            AlertText.text = "프로텍터 AI의 동작시간입니다!\n하단의 버튼을 5초간 눌러 프로텍터 AI를 피하세요!";
+            Warning.transform.localScale = Vector3.one;
+
             ButtonAlert.transform.localScale = Vector3.one;
             ck++;
             if (check == true)
