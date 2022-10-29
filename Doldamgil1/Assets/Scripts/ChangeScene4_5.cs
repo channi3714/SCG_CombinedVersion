@@ -9,6 +9,7 @@ public class ChangeScene4_5 : MonoBehaviour
     public float TotalTime;
     public GameObject ButtonChangeScene;
     public GameObject Window11;
+    public GameObject Back;
     public Text SceneChangeText;
 
     int cnt = 0;
@@ -18,6 +19,8 @@ public class ChangeScene4_5 : MonoBehaviour
         cnt++;
         if (cnt == 1)
         {
+            Back.transform.localScale = Vector3.one;
+
             Window11.transform.localScale = Vector3.one;
             SceneChangeText.transform.localScale = Vector3.zero;
         }
@@ -31,6 +34,7 @@ public class ChangeScene4_5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Back.transform.localScale = Vector3.zero;
         Window11.transform.localScale = Vector3.zero;
         SceneChangeText.text = "쓰레기를 터치해서 치워주세요!!";
         ButtonChangeScene.transform.localScale = Vector3.zero;

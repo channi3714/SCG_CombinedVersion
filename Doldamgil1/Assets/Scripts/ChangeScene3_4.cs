@@ -15,7 +15,7 @@ public class ChangeScene3_4 : MonoBehaviour
     public GameObject Window8;
     public GameObject Window9;
     public GameObject Window10;
-    public GameObject Window11;
+    public GameObject Back;
     //public Text TalkText;
     int count = 0;
 
@@ -24,6 +24,8 @@ public class ChangeScene3_4 : MonoBehaviour
         count++;
         if (count == 1)
         {
+            Back.transform.localScale = Vector3.one;
+
             Window4.transform.localScale = Vector3.zero;
             Window5.transform.localScale = Vector3.one;
             Window6.transform.localScale = Vector3.zero;
@@ -36,6 +38,8 @@ public class ChangeScene3_4 : MonoBehaviour
         }
         else if (count == 2)
         {
+            Back.transform.localScale = Vector3.zero;
+
             Window4.transform.localScale = Vector3.zero;
             Window5.transform.localScale = Vector3.zero;
             Window6.transform.localScale = Vector3.one;
@@ -84,6 +88,8 @@ public class ChangeScene3_4 : MonoBehaviour
         }
         else if (count == 6)
         {
+            Back.transform.localScale = Vector3.one;
+
             Window4.transform.localScale = Vector3.zero;
             Window5.transform.localScale = Vector3.zero;
             Window6.transform.localScale = Vector3.zero;
@@ -112,6 +118,7 @@ public class ChangeScene3_4 : MonoBehaviour
         Window8.transform.localScale = Vector3.zero;
         Window9.transform.localScale = Vector3.zero;
         Window10.transform.localScale = Vector3.zero;
+        Back.transform.localScale = Vector3.zero;
     }
 
     // Update is called once per frame
