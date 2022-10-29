@@ -61,7 +61,7 @@ public class Random : MonoBehaviour
         }
         else if (random > 0)
         {
-            AlertText.text = "프로텍터 AI의 동작시간입니다!\n하단의 버튼을 5초간 눌러 프로텍터 AI를 피하세요!";
+            AlertText.text = "프로텍터 AI의 동작시간입니다!\n하단의 버튼을 5초간 눌러 프로텍터 AI의 감시를 피하세요!";
             Warning.transform.localScale = Vector3.one;
 
             ButtonAlert.transform.localScale = Vector3.one;
