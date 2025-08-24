@@ -17,3 +17,12 @@
 <div>
   <p>“도시의 이면을 밝혀 탈출하라”. XRpolis는 도시 탈출 AR 게임을 통해 도시 속에서 비가시화된 사회적 약자의 이야기를 다루는 팀이다. 세상을 거대한 게임판으로 만들자는 목표로 전 세계의 유명 스팟마다 해당 스팟의 사회적, 역사적 스토리를 결합한 AR 게임을 제작하고자 한다. 현재 대두되는 주요한 사회 문제들을 주제로 스토리 기반의 인터렉티브 게임 콘텐츠로 만들어 사회 문제에 대한 논의의 장벽을 낮추고, 게임 플랫폼이 사회 정치적 의제의 장이 될 수 있을지 실험해보고자 한다.</p>
 </div>
+
+## Play
+
+<div>
+  <img width="488" height="1051" alt="Image" src="https://github.com/user-attachments/assets/b449ea2b-7f55-451a-87f8-f3d01113c5ac" />
+  <img width="487" height="1054" alt="Image" src="https://github.com/user-attachments/assets/69a051da-f780-405c-96c2-d6980f9b83a3" />
+  <img width="461" height="256" alt="Image" src="https://github.com/user-attachments/assets/a823462c-da87-4e2e-ae5a-aaff3b416c58" />
+  
+</div>
