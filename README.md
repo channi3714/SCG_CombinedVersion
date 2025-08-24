@@ -26,3 +26,8 @@
   <img width="461" height="1051" alt="Image" src="https://github.com/user-attachments/assets/b449ea2b-7f55-451a-87f8-f3d01113c5ac" />
   <img width="461" height="1051" alt="Image" src="https://github.com/user-attachments/assets/69a051da-f780-405c-96c2-d6980f9b83a3" />
 </div>
+
+## Contact👤
+
+* KakaoTalk: [@Channi](https://open.kakao.com/o/sm90sjOh)
+* Github: [@Channi](https://github.com/channi3714)
