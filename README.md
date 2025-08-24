@@ -21,8 +21,8 @@
 ## Play
 
 <div>
-  <img width="488" height="1051" alt="Image" src="https://github.com/user-attachments/assets/b449ea2b-7f55-451a-87f8-f3d01113c5ac" />
-  <img width="487" height="1054" alt="Image" src="https://github.com/user-attachments/assets/69a051da-f780-405c-96c2-d6980f9b83a3" />
   <img width="461" height="256" alt="Image" src="https://github.com/user-attachments/assets/a823462c-da87-4e2e-ae5a-aaff3b416c58" />
-  
+  <img width="461" height="256" alt="Image" src="https://github.com/user-attachments/assets/40d45e84-40d2-4e5d-b605-e440d6b74c6e" />
+  <img width="461" height="1051" alt="Image" src="https://github.com/user-attachments/assets/b449ea2b-7f55-451a-87f8-f3d01113c5ac" />
+  <img width="461" height="1051" alt="Image" src="https://github.com/user-attachments/assets/69a051da-f780-405c-96c2-d6980f9b83a3" />
 </div>
