@@ -31,3 +31,4 @@
 
 * KakaoTalk: [@Channi](https://open.kakao.com/o/sm90sjOh)
 * Github: [@Channi](https://github.com/channi3714)
+* Email: chyeop.oh@gmail.com
